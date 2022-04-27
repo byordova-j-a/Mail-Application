@@ -1,5 +1,5 @@
 # Mail-Application
-Для запуска необходимо:
+Для запуска необходимо:<br/>
 1)Импортировать dupm базы данных (mailsbd_mails.sql).
 2)В папке server открыть index.js и заменить параметры подключения к базе данных MySQL.А именно:
 const connection = mysql.createConnection({
