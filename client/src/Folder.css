@@ -1,0 +1,35 @@
+.Context-menu{
+    display: block;
+    z-index:2;
+    background-color: Lavender;
+    margin-bottom: 5px;
+  }
+
+  .MenuBut:hover{
+    background-color: rgb(176, 162, 255);}
+
+  .Context-menu p{
+    color:black;
+    padding:0px;
+    margin:0px;
+    border-bottom:3px solid white;
+  }
+  .Menu{
+    display: flex;
+    flex-direction:column;
+  }   
+
+  .MenuBut{
+    display: block;
+    width:inherit;
+    height: 28px;
+    margin-bottom: 5px;
+  }
+
+  .b1:hover{  
+    background-color: rgb(176, 162, 255);
+  }
+
+  .b2:hover{ 
+     background-color: rgb(176, 162, 255);
+  }

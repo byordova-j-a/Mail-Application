@@ -1,0 +1,13 @@
+.context-menu{
+    position: absolute;
+    z-index: 10;
+  }
+
+  .MainBut{
+    height: 28px;
+    margin-bottom: 5px;
+ }
+
+ .MainBut:hover{
+  background-color: rgb(176, 162, 255);
+ }

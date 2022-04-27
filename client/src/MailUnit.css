@@ -1,0 +1,30 @@
+.Unit{
+    
+    display:flex;
+    flex-direction: row;
+    border: 1px solid rgb(20, 17, 17);
+    justify-content: space-between;
+    height: 40px;
+    margin-top:2px;
+    align-items: center;
+    
+}
+.Unit:hover {
+    background-color: Lavender;
+}
+.Author{
+    padding-left:5px;
+    width:20%;
+    
+   
+
+}
+.Title{
+    width:70%;
+    
+
+}
+.Date{
+    width:10%;
+    
+}

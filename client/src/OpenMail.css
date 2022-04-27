@@ -1,0 +1,35 @@
+.OpenMail{
+    padding:10px;
+}
+.OpenMail p{
+    padding:0px;
+    margin:0px;
+}
+.FromTo{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.FromTo p {
+    font-size: 14px;
+    padding:0px;
+    margin:0px;
+
+}
+.Text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.Back{
+    font-size:16px;
+   
+    width: 100px;
+    
+}
+.Back:hover{
+    color: rgb(176, 162, 255);
+}
+.Back span{
+    font-size:20px;
+    
+    
+}

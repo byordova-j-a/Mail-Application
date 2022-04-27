@@ -1,0 +1,47 @@
+.Modal{
+    font-size: large;
+    border: 1pt solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 150px;
+    padding:0px 10px 10px 10px;
+    z-index: 2;
+    background-color: white;
+}
+
+.PanelButtons{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+     padding: 10px;
+     margin: 15px;
+     z-index: 2;
+}
+
+.Button{
+    background-color: Lavender;
+    text-align: center;
+    width: 5em;
+    height: 1.5em;
+    padding: 2px;
+    border: 1pt solid black;
+    z-index: 2;
+}
+
+.Button:hover{  
+    background-color: rgb(176, 162, 255);
+  }
+
+.Modalback{
+    top: 0;
+    left: 0;
+    position: absolute;
+    height:100%;
+    width:100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
